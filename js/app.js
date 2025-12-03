@@ -1,6 +1,8 @@
 // app.js - Single Source of Truth
 
-const API_URL = 'http://localhost:3000/api';
+// app.js - Single Source of Truth
+
+const API_URL = ''; // Not used for static site
 const CART_KEY = 'bodyforge_cart_v3';
 
 // State
@@ -51,13 +53,14 @@ async function init() {
 
 async function loadProducts() {
     try {
-        const res = await fetch(`${API_URL}/products?t=${Date.now()}`);
+        // Fetch from static JSON file
+        const res = await fetch('products.json');
         if (!res.ok) throw new Error('Failed to fetch products');
         state.products = await res.json();
         console.log('Products loaded:', state.products.length);
     } catch (error) {
         console.error(error);
-        showError('No se pudieron cargar los productos. Asegúrate de que el servidor esté corriendo.');
+        showError('No se pudieron cargar los productos.');
     }
 }
 
@@ -535,15 +538,14 @@ async function processOrder(e) {
             total: state.cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
         };
 
-        const res = await fetch(`${API_URL}/orders`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(order)
-        });
+        // Simulate API call delay
+        await new Promise(resolve => setTimeout(resolve, 1500));
 
-        if (!res.ok) throw new Error('Order failed');
-
-        const result = await res.json();
+        // Simulate success response
+        const result = {
+            orderId: Date.now(),
+            message: 'Order created successfully'
+        };
 
         // Show Confirmation View
         document.getElementById('conf-order-id').textContent = result.orderId;

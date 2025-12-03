@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Proteína Whey 1kg Chocolate",
+        "price": 29990,
+        "image": "https://images.openfoodfacts.org/images/products/074/892/705/9113/front_en.203.400.jpg",
+        "category": "Proteínas",
+        "description": "Aumenta tu masa muscular con la mejor proteína del mercado."
+    },
+    {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "https://images.openfoodfacts.org/images/products/599/907/622/7426/front_es.17.400.jpg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento."
+    },
+    {
+        "id": 3,
+        "name": "Pre-entreno Explosive Citrus",
+        "price": 24990,
+        "image": "https://images.openfoodfacts.org/images/products/871/883/639/4652/front_fr.41.400.jpg",
+        "category": "Pre-entrenos",
+        "description": "Energía explosiva para tus sesiones más intensas."
+    },
+    {
+        "id": 5,
+        "name": "Multivitamínico Sport",
+        "price": 15990,
+        "image": "https://images.openfoodfacts.org/images/products/599/907/622/8508/front_fr.3.400.jpg",
+        "category": "Accesorios",
+        "description": "Complejo vitamínico esencial para deportistas de alto rendimiento."
+    },
+    {
+        "id": 6,
+        "name": "BCAA 2:1:1 Powder",
+        "price": 22990,
+        "image": "https://images.openfoodfacts.org/images/products/590/133/004/7350/front_fr.6.400.jpg",
+        "category": "Suplementos",
+        "description": "Aminoácidos ramificados para una recuperación muscular óptima."
+    },
+    {
+        "id": 7,
+        "name": "Shaker BodyForge Pro",
+        "price": 5990,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Osaka_protein_shaker.jpg",
+        "category": "Accesorios",
+        "description": "Mezclador a prueba de fugas con compartimento para polvo."
+    },
+    {
+        "id": 8,
+        "name": "Mass Gainer 3kg",
+        "price": 45990,
+        "image": "https://images.openfoodfacts.org/images/products/317/568/124/7239/front_fr.3.400.jpg",
+        "category": "Proteínas",
+        "description": "Ganador de peso alto en calorías para volumen extremo."
+    },
+    {
+        "id": 9,
+        "name": "Cinturón de Levantamiento",
+        "price": 18990,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/LiftingBelt.JPG",
+        "category": "Accesorios",
+        "description": "Soporte lumbar reforzado para tus levantamientos más pesados."
+    },
+    {
+        "id": 10,
+        "name": "Omega 3 Fish Oil",
+        "price": 12990,
+        "image": "https://images.openfoodfacts.org/images/products/340/159/919/7046/front_fr.7.400.jpg",
+        "category": "Suplementos",
+        "description": "Ácidos grasos esenciales para la salud cardiovascular y articular."
+    },
+    {
+        "id": 11,
+        "name": "Barra de Proteína (Caja 12)",
+        "price": 24990,
+        "image": "https://images.openfoodfacts.org/images/products/841/007/661/0737/front_fr.68.400.jpg",
+        "category": "Snacks",
+        "description": "Snack saludable con 20g de proteína por barra."
+    }
+]

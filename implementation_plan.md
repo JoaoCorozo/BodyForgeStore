@@ -1,43 +1,37 @@
-# Implementation Plan - PWA & GitHub
+# Implementation Plan - Static Site Conversion
 
-The goal is to transform the existing Node.js application into a Progressive Web App (PWA) and push the code to the user's GitHub repository.
+The goal is to convert the application into a static site so it can be hosted correctly on GitHub Pages. This involves moving frontend files to the root directory and removing dependencies on the Node.js backend.
 
 ## User Review Required
-> [!IMPORTANT]
-> The application requires a Node.js server to run (`node server.js`). While the PWA features (installability, caching) will work, the app cannot be hosted on static hosting services like GitHub Pages if the backend logic (API, file writing) is required. It must be hosted on a platform that supports Node.js (e.g., Render, Railway, Heroku).
+> [!WARNING]
+> **Backend Removal**: The "Save Order" feature will no longer save to a database (`orders.json`) because GitHub Pages is static. I will update the checkout to simulate a successful order.
+> **File Structure**: Frontend files (`index.html`, `css`, `js`) will be moved from `public/` to the root directory.
 
 ## Proposed Changes
 
-### PWA Assets
-#### [NEW] [manifest.json](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/manifest.json)
-- Define app name, description, start URL, display mode (standalone), and icons.
+### File Structure
+- Move `public/index.html` -> `./index.html`
+- Move `public/css/` -> `./css/`
+- Move `public/js/` -> `./js/`
+- Move `public/images/` -> `./images/`
+- Move `public/manifest.json` -> `./manifest.json`
+- Move `public/service-worker.js` -> `./service-worker.js`
+- Copy `data/products.json` -> `./products.json`
 
-#### [NEW] [service-worker.js](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/service-worker.js)
-- Implement a basic caching strategy (Cache First for assets, Network First for API) to allow offline access to visited pages.
+### Code Updates
+#### [MODIFY] [js/app.js](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/js/app.js)
+- Change product fetching URL from `/api/products` to `./products.json`.
+- Update `submitOrder` to simulate success instead of POSTing to `/api/orders`.
 
-#### [NEW] [icon.png](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/images/icon-512.png)
-- Generate a 512x512 icon for the PWA.
-
-### Frontend Updates
 #### [MODIFY] [index.html](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/index.html)
-- Link `manifest.json`.
-- Add script to register `service-worker.js`.
-- Add `meta` tags for theme color and viewport.
+- Update links if necessary (though relative paths should still work if folders are moved together).
 
-### Git Setup
-- Initialize Git repository.
-- Create `.gitignore`.
-- Add remote `https://github.com/JoaoCorozo/BodyForgeStore.git`.
-- Commit and Push.
+#### [MODIFY] [service-worker.js](file:///c:/Users/Administrador/Desktop/EVA3_BodyForge_Store/public/service-worker.js)
+- Update cache paths if needed.
 
 ## Verification Plan
-### Automated Tests
-- None.
-
 ### Manual Verification
-- Run the server (`node server.js`).
-- Open in Chrome.
-- Verify "Install App" icon appears in the address bar.
-- Check DevTools > Application > Manifest to ensure no errors.
-- Check DevTools > Application > Service Workers to ensure registration.
-- Verify GitHub repo has the code.
+- Open `index.html` directly in the browser (via Live Server or file protocol).
+- Verify products load from `products.json`.
+- Verify checkout flow shows success message.
+- Push to GitHub and verify the live site loads the app instead of README.
