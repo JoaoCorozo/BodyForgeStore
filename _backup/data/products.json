@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Proteína Whey 1kg Chocolate",
+    "price": 29990,
+    "image": "images/protein.svg",
+    "category": "Proteínas",
+    "description": "Recomendado para aumentar masa muscular"
+  },
+  {
+    "id": 2,
+    "name": "Creatina Monohidratada 300g",
+    "price": 19990,
+    "image": "images/creatine.svg",
+    "category": "Accesorios",
+    "description": "Sugerido según historial de compra"
+  },
+  {
+    "id": 3,
+    "name": "Pre-entreno Explosive Citrus",
+    "price": 24990,
+    "image": "images/preworkout.svg",
+    "category": "Pre-entrenos",
+    "description": "Otros usuarios también compraron"
+  },
+  {
+    "id": 4,
+    "name": "Guantes de entrenamiento Pro",
+    "price": 14990,
+    "image": "images/gloves.svg",
+    "category": "Accesorios",
+    "description": "Ideal para entrenamientos de alta intensidad"
+  }
+]

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>BodyForge Store - Productos</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="page-container">
+      <div class="logo">BodyForge Store</div>
+
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <div class="header-right">
+        <input type="text" placeholder="Buscar productos..." class="search-input" />
+        <a href="carrito.html" class="cart-link">Carrito (0)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="section">
+    <div class="page-container">
+
+      <div class="section-header">
+        <h2>Todos los productos</h2>
+        <p class="section-subtitle">
+          Explora nuestra selección completa de suplementos y accesorios deportivos.
+        </p>
+      </div>
+
+      <div class="layout">
+
+        <!-- PANEL DE FILTROS -->
+        <aside class="filters-panel">
+          <h2>Filtros</h2>
+
+          <div class="filter-group">
+            <h3>Categoría</h3>
+            <label><input type="radio" name="categoria" checked /> Todas</label>
+            <label><input type="radio" name="categoria" /> Proteínas</label>
+            <label><input type="radio" name="categoria" /> Pre-entrenos</label>
+            <label><input type="radio" name="categoria" /> Accesorios</label>
+            <label><input type="radio" name="categoria" /> Vitaminas</label>
+          </div>
+
+          <div class="filter-group">
+            <h3>Rango de precio</h3>
+            <p>$10.000 – $50.000</p>
+            <input type="range" min="10000" max="50000" />
+          </div>
+
+          <button class="btn-secondary full-width">Aplicar filtros</button>
+        </aside>
+
+        <!-- LISTADO DE PRODUCTOS -->
+        <section>
+          <div class="product-grid" data-dynamic="true">
+            <!-- Los productos se cargarán dinámicamente desde la API -->
+            <p style="text-align:center; width:100%;">Cargando catálogo completo...</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="page-container">
+      <p>BodyForge Store © 2025</p>
+      <p>Instagram · TikTok · Facebook</p>
+      <p>Términos y condiciones · Políticas de privacidad</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

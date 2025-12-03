@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BodyForge Store - Carrito</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="page-container">
+            <div class="logo">BodyForge Store</div>
+
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+
+            <div class="header-right">
+                <input type="text" placeholder="Buscar productos..." class="search-input" />
+                <a href="carrito.html" class="cart-link">Carrito (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO CARRITO -->
+    <main class="section cart-section">
+        <div class="page-container">
+            <div class="section-header">
+                <h2>Tu carrito de compras</h2>
+                <p class="section-subtitle">Revisa los productos seleccionados antes de finalizar tu compra.</p>
+            </div>
+
+            <div class="cart-layout">
+                <!-- TABLA DE CARRITO -->
+                <section class="cart-table-wrapper">
+                    <table class="cart-table">
+                        <thead>
+                            <tr>
+                                <th>Producto</th>
+                                <th>Cantidad</th>
+                                <th>Precio unitario</th>
+                                <th>Subtotal</th>
+                                <th>Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- El contenido se llenará dinámicamente con JS -->
+                        </tbody>
+                    </table>
+
+                    <div class="cart-actions">
+                        <a href="productos.html" class="btn-link">← Seguir comprando</a>
+                        <button class="btn-secondary btn-vaciar-carrito">Vaciar carrito</button>
+                    </div>
+                </section>
+
+                <!-- RESUMEN -->
+                <aside class="cart-summary">
+                    <h3>Resumen de compra</h3>
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span class="summary-subtotal">$0</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Envío estimado</span>
+                        <span>$4.000</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span class="summary-total">$0</span>
+                    </div>
+
+                    <a href="checkout.html" class="btn-primary summary-btn">Ir a pagar</a>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="page-container">
+            <p>BodyForge Store © 2025</p>
+            <p>Instagram · TikTok · Facebook</p>
+            <p>Términos y condiciones · Políticas de privacidad</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>BodyForge Store - Checkout</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="page-container">
+      <div class="logo">BodyForge Store</div>
+
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <div class="header-right">
+        <input type="text" placeholder="Buscar productos..." class="search-input" />
+        <a href="carrito.html" class="cart-link">Carrito (2)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CHECKOUT -->
+  <main class="section checkout-section">
+    <div class="page-container">
+
+      <div class="section-header">
+        <h2>Finalizar compra</h2>
+        <p class="section-subtitle">Ingresa tus datos y método de pago para completar tu pedido.</p>
+      </div>
+
+      <div class="checkout-layout">
+
+        <!-- FORMULARIO DE DATOS -->
+        <section class="checkout-form">
+          <form>
+            <h3>Datos del cliente</h3>
+
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" placeholder="Ej: Juan Pérez" required />
+            </div>
+
+            <div class="form-group">
+              <label>Correo electrónico</label>
+              <input type="email" placeholder="correo@ejemplo.com" required />
+            </div>
+
+            <div class="form-group">
+              <label>Dirección de envío</label>
+              <input type="text" placeholder="Calle, número, departamento" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Comuna</label>
+                <input type="text" placeholder="Ej: Puente Alto" required />
+              </div>
+              <div class="form-group">
+                <label>Teléfono</label>
+                <input type="tel" placeholder="+56 9 1234 5678" required />
+              </div>
+            </div>
+
+            <h3>Método de pago</h3>
+
+            <div class="form-group">
+              <label><input type="radio" name="pago" checked /> Tarjeta de crédito/débito</label>
+              <label><input type="radio" name="pago" /> Transferencia bancaria</label>
+              <label><input type="radio" name="pago" /> Pago contra entrega</label>
+            </div>
+
+            <!-- Campos de tarjeta -->
+            <div class="form-row">
+              <div class="form-group">
+                <label>Número de tarjeta</label>
+                <input type="text" placeholder="XXXX XXXX XXXX XXXX" />
+              </div>
+
+              <div class="form-group">
+                <label>Vencimiento</label>
+                <input type="text" placeholder="MM/AA" />
+              </div>
+
+              <div class="form-group">
+                <label>CVV</label>
+                <input type="password" placeholder="***" />
+              </div>
+            </div>
+
+            <button type="submit" class="btn-primary summary-btn" style="margin-top: 1rem; width: 100%;">Confirmar
+              compra</button>
+          </form>
+        </section>
+
+        <!-- RESUMEN DE COMPRA -->
+        <aside class="checkout-summary">
+          <h3>Resumen de compra</h3>
+
+          <div class="summary-row">
+            <span>Total a pagar (con envío)</span>
+            <span class="checkout-total-display">$0</span>
+          </div>
+
+          <p class="checkout-note">
+            Al confirmar, recibirás un correo con el detalle de tu pedido y el seguimiento del envío.
+          </p>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="page-container">
+      <p>BodyForge Store © 2025</p>
+      <p>Instagram · TikTok · Facebook</p>
+      <p>Términos y condiciones · Políticas de privacidad</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

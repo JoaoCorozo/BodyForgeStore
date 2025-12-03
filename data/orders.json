@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1764771417965,
+    "date": "2025-12-03T14:16:57.965Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Proteína Whey 1kg Chocolate",
+        "price": 29990,
+        "image": "images/protein.svg",
+        "category": "Proteínas",
+        "description": "Aumenta tu masa muscular con la mejor proteína del mercado.",
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Pre-entreno Explosive Citrus",
+        "price": 24990,
+        "image": "images/preworkout.svg",
+        "category": "Pre-entrenos",
+        "description": "Energía explosiva para tus sesiones más intensas.",
+        "quantity": 1
+      }
+    ],
+    "total": 54980
+  },
+  {
+    "id": 1764772193476,
+    "date": "2025-12-03T14:29:53.476Z",
+    "items": [
+      {
+        "id": 1,
+        "name": "Proteína Whey 1kg Chocolate",
+        "price": 29990,
+        "image": "images/protein.svg",
+        "category": "Proteínas",
+        "description": "Aumenta tu masa muscular con la mejor proteína del mercado.",
+        "quantity": 1
+      }
+    ],
+    "total": 29990
+  },
+  {
+    "id": 1764775702718,
+    "date": "2025-12-03T15:28:22.718Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "credit"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "images/creatine.svg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento.",
+        "quantity": 1
+      }
+    ],
+    "total": 19990
+  },
+  {
+    "id": 1764775712856,
+    "date": "2025-12-03T15:28:32.856Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "debit"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "images/creatine.svg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento.",
+        "quantity": 1
+      }
+    ],
+    "total": 19990
+  },
+  {
+    "id": 1764775715211,
+    "date": "2025-12-03T15:28:35.211Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "transfer"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "images/creatine.svg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento.",
+        "quantity": 1
+      }
+    ],
+    "total": 19990
+  },
+  {
+    "id": 1764776339580,
+    "date": "2025-12-03T15:38:59.580Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "credit"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "images/creatine.svg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento.",
+        "quantity": 1
+      }
+    ],
+    "total": 19990
+  },
+  {
+    "id": 1764778528305,
+    "date": "2025-12-03T16:15:28.305Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "credit"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Proteína Whey 1kg Chocolate",
+        "price": 29990,
+        "image": "images/protein.svg",
+        "category": "Proteínas",
+        "description": "Aumenta tu masa muscular con la mejor proteína del mercado.",
+        "quantity": 1
+      }
+    ],
+    "total": 29990
+  },
+  {
+    "id": 1764779298416,
+    "date": "2025-12-03T16:28:18.416Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "transfer"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Proteína Whey 1kg Chocolate",
+        "price": 29990,
+        "image": "images/protein.svg",
+        "category": "Proteínas",
+        "description": "Aumenta tu masa muscular con la mejor proteína del mercado.",
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "name": "Creatina Monohidratada 300g",
+        "price": 19990,
+        "image": "images/creatine.svg",
+        "category": "Suplementos",
+        "description": "Mejora tu fuerza y rendimiento en cada entrenamiento.",
+        "quantity": 1
+      },
+      {
+        "id": 3,
+        "name": "Pre-entreno Explosive Citrus",
+        "price": 24990,
+        "image": "images/preworkout.svg",
+        "category": "Pre-entrenos",
+        "description": "Energía explosiva para tus sesiones más intensas.",
+        "quantity": 1
+      }
+    ],
+    "total": 74970
+  },
+  {
+    "id": 1764785755267,
+    "date": "2025-12-03T18:15:55.267Z",
+    "customer": {
+      "name": "Joao Corozo",
+      "email": "joao.corozo@inacapmail.cl",
+      "address": "Piamonte Norte 399, Puente Alto",
+      "city": "Santiago",
+      "payment": "credit"
+    },
+    "items": [
+      {
+        "id": 8,
+        "name": "Mass Gainer 3kg",
+        "price": 45990,
+        "image": "https://images.openfoodfacts.org/images/products/317/568/124/7239/front_fr.3.400.jpg",
+        "category": "Proteínas",
+        "description": "Ganador de peso alto en calorías para volumen extremo.",
+        "quantity": 2
+      }
+    ],
+    "total": 91980
+  }
+]

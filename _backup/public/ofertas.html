@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>BodyForge Store - Ofertas</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="page-container">
+      <div class="logo">BodyForge Store</div>
+
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <div class="header-right">
+        <input type="text" placeholder="Buscar productos..." class="search-input" />
+        <a href="carrito.html" class="cart-link">Carrito (0)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO OFERTAS -->
+  <main class="section">
+    <div class="page-container">
+
+      <div class="section-header">
+        <h2>Ofertas especiales</h2>
+        <p class="section-subtitle">
+          Descubre promociones destacadas y productos con descuentos exclusivos.
+        </p>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card" data-id="offer-1" data-name="Pack Proteína + Creatina" data-price="39990"
+          data-image="images/protein.svg">
+          <div class="product-img-container">
+            <img src="images/protein.svg" alt="Pack" class="product-img-real">
+          </div>
+          <h3>Pack Proteína + Creatina</h3>
+          <p class="price">
+            $39.990
+            <span style="text-decoration: line-through; font-size: 0.85rem; color:#888; margin-left:6px;">
+              $49.980
+            </span>
+          </p>
+          <button class="btn-secondary btn-add-cart">Agregar al carrito</button>
+          <p class="tag-ml">Oferta por tiempo limitado</p>
+        </article>
+
+        <article class="product-card" data-id="offer-2" data-name="Pre-entreno Explosive 2x1" data-price="24990"
+          data-image="images/preworkout.svg">
+          <div class="product-img-container">
+            <img src="images/preworkout.svg" alt="Pre-entreno" class="product-img-real">
+          </div>
+          <h3>Pre-entreno Explosive 2x1</h3>
+          <p class="price">$24.990</p>
+          <button class="btn-secondary btn-add-cart">Agregar al carrito</button>
+          <p class="tag-ml">Incluye sabores surtidos</p>
+        </article>
+
+        <article class="product-card" data-id="offer-3" data-name="Guantes Pro + Cinturón lumbar" data-price="19990"
+          data-image="images/gloves.svg">
+          <div class="product-img-container">
+            <img src="images/gloves.svg" alt="Accesorios" class="product-img-real">
+          </div>
+          <h3>Guantes Pro + Cinturón lumbar</h3>
+          <p class="price">$19.990</p>
+          <button class="btn-secondary btn-add-cart">Agregar al carrito</button>
+          <p class="tag-ml">Ideal para entrenamientos pesados</p>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="page-container">
+      <p>BodyForge Store © 2025</p>
+      <p>Instagram · TikTok · Facebook</p>
+      <p>Términos y condiciones · Políticas de privacidad</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
